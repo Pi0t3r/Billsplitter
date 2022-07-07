@@ -92,3 +92,21 @@ transition: background-color .3s;
     color: rgb(199, 63, 29);
     text-align: center;
 }
+
+@media(min-width: 320px){
+    .top p{
+        text-align: center;
+    }
+}
+
+@media(max-width:375px){
+    .top p{
+        padding: 0 10px;
+    }
+}
+
+@media(min-width:768px){
+    .cost-info{
+        text-align: center;
+    }
+}
